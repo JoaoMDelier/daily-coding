@@ -1,0 +1,60 @@
+.container {
+  margin: 50px 200px;
+}
+
+.conteudos {
+  border: 2px solid blueviolet;
+}
+
+.abas {
+  display: flex;
+}
+
+.abas button {
+  background-color:#fff;
+  border: 2px solid purple;
+  color: plum;
+  cursor:pointer;
+  flex-grow: 1;
+  font-size: 1.25rem;
+  font-weight: bold;
+  outline:none;
+  padding:10px;
+  text-transform: uppercase;
+  transition: all .5s;
+}
+
+.conteudos {
+  border: 2px solid purple;
+  min-height: 300px;
+  padding: 20px;
+}
+
+.form {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form input {
+  padding: 10px;
+  border: 2px solid purple;
+}
+
+.form button {
+  padding: 10px;
+  background-color: plum;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.hidden {
+  display:none;
+}
+
+.abas .ativa {
+  background-color: purple;
+  color: white;
+}
