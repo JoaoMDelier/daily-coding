@@ -16,7 +16,7 @@
     conteudo.classList.remove('hidden');
   }
 
-  ativarAba = (aba) => {
+  ativarAba  = (aba) => {
     aba.classList.add("ativa")   
   }
 
